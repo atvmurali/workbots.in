@@ -1,62 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WorkBots Consulting</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>WorkBots Consulting</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-    <header>
-        <img src="assets/logo.png" alt="WorkBots Consulting Logo">
-        <nav>
-            <a href="#about">About Us</a>
-            <a href="#services">Services</a>
-            <a href="#careers">Careers</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+  <!-- Header / Nav -->
+  <header class="site-header">
+    <div class="container header-wrap">
+      <a href="#home" class="brand">
+        <img src="assets/logo.png" alt="WorkBots Consulting" class="logo" />
+      </a>
+      <nav class="nav">
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#careers">Careers</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-    <section id="hero">
-        <h1>WorkBots Consulting</h1>
-        <p>Empowering Businesses with Innovative Solutions</p>
-    </section>
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <h1 class="company">WorkBots Consulting</h1>
+      <p class="tagline">Ideas Redefined and Delivered</p>
+      <p class="subline">We Ideate on your Business — You just fix the Goals</p>
+      <a href="#contact" class="btn btn-primary"><i class="fa-solid fa-paper-plane"></i> Contact Us</a>
+    </div>
+  </section>
 
-    <section id="about">
-        <h2>About Us</h2>
-        <p>At WorkBots Consulting, we help organizations harness the power of technology and people to drive success. Our mission is to deliver top-notch consulting services in business, workforce, and technology domains.</p>
-    </section>
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title"><i class="fa-solid fa-circle-info"></i> About Us</h2>
+      <p>
+        Welcome to the world of Innovations. WorkBots is all about a platform for Ideations.
+        We work on constant thoughts and ideas by creating awesome results for our customers.
+        We create a positive impact in customers through our innovative technology and services.
+        We Delve, Develop and Deploy by focusing on Innovation. An energetic team with Smart Ideas
+        and Diversified Goals are proficient to deliver the finest products and services. MISSION ACCOMPLISHED.
+      </p>
 
-    <section id="services">
-        <h2>Our Services & Products</h2>
-        <ul>
-            <li>📊 Management Advisory</li>
-            <li>💼 Business Consulting</li>
-            <li>🌱 Human Possibility Management</li>
-            <li>👥 Workforce Consulting / RPO</li>
-            <li>💻 Application Development & Consulting</li>
-            <li>🛠 Product Development</li>
-        </ul>
-    </section>
-
-    <section id="careers">
-        <h2>Careers</h2>
-        <p>We’re always looking for talented individuals to join our team. Send your CV to <a href="mailto:careers@workbots.in">careers@workbots.in</a></p>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>📍 Vijayanagara, Bangalore - 560104</p>
-        <p>📧 <a href="mailto:info@workbots.in">info@workbots.in</a></p>
-        <div class="socials">
-            <a href="https://linkedin.com/company/workbots" target="_blank">LinkedIn</a> |
-            <a href="https://twitter.com/workbots" target="_blank">Twitter</a>
+      <div class="kv-grid">
+        <div class="kv-card">
+          <div class="kv-icon"><i class="fa-solid fa-bullseye"></i></div>
+          <h3>Mission</h3>
+          <p>To provide innovative technology solutions, products & services to our valued customers.</p>
         </div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-    </section>
+        <div class="kv-card">
+          <div class="kv-icon"><i class="fa-solid fa-eye"></i></div>
+          <h3>Vision</h3>
+          <p>Be a leading technology company and a dynamic brand by making a paradigm shift with a focus on customer satisfaction and advancing digital transformation journeys.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <footer>
-        <p>&copy; 2025 WorkBots Consulting. All rights reserved.</p>
-    </footer>
+  <!-- Services -->
+  <section id="services" class="section alt">
+    <div class="container">
+      <h2 class="section-title"><i class="fa-solid fa-briefcase"></i> Our Services & Products</h2>
+      <div class="cards">
+        <div class="card">
+          <i class="fa-solid fa-chalkboard-user"></i>
+          <h3>Management Advisory</h3>
+          <p>Guiding strategy, governance and measurable outcomes.</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-handshake-angle"></i>
+          <h3>Business Consulting</h3>
+          <p>From discovery to delivery—optimize, scale and transform.</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-seedling"></i>
+          <h3>Human Possibility Management</h3>
+          <p>Unlocking talent potential with people-first frameworks.</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-users-gear"></i>
+          <h3>Workforce Consulting / RPO</h3>
+          <p>Right people, right roles, right time—end-to-end RPO.</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-laptop-code"></i>
+          <h3>Application Dev & Consulting</h3>
+          <p>Design, build and modernize applications that matter.</p>
+        </div>
+        <div class="card">
+          <i class="fa-solid fa-cubes"></i>
+          <h3>Product Development</h3>
+          <p>From idea to launch—iterative product engineering.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Careers -->
+  <section id="careers" class="section">
+    <div class="container">
+      <h2 class="section-title"><i class="fa-solid fa-user-tie"></i> Careers</h2>
+      <p>We’re always looking for talented individuals to join our team.</p>
+      <p>Send your CV to <a href="mailto:careers@workbots.in">careers@workbots.in</a></p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section alt">
+    <div class="container">
+      <h2 class="section-title"><i class="fa-solid fa-envelope"></i> Contact</h2>
+      <div class="contact-grid">
+        <div class="contact-details">
+          <p><i class="fa-solid fa-location-dot"></i> Vijayanagara, Bangalore - 560104</p>
+          <p><i class="fa-solid fa-phone"></i> +91-953559 2345</p>
+          <p><i class="fa-solid fa-at"></i> <a href="mailto:murali.atv@workbots.in">murali.atv@workbots.in</a></p>
+          <div class="socials">
+            <a href="https://linkedin.com/company/workbots" target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://twitter.com/workbots" target="_blank" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+        </div>
+        <div class="map-wrap">
+          <iframe title="WorkBots Consulting - Vijayanagara, Bangalore" src="https://www.google.com/maps?q=Vijayanagar%2C%20Bengaluru%20560104&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 WorkBots Consulting. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    const header = document.querySelector('.site-header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 4);
+    });
+  </script>
 </body>
 </html>
