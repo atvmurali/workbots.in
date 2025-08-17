@@ -4,20 +4,4 @@
     <loc>https://www.workbots.in/</loc>
     <priority>1.00</priority>
   </url>
-  <url>
-    <loc>https://www.workbots.in/about</loc>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.workbots.in/services</loc>
-    <priority>0.80</priority>
-  </url>
-  <url>
-    <loc>https://www.workbots.in/careers</loc>
-    <priority>0.70</priority>
-  </url>
-  <url>
-    <loc>https://www.workbots.in/contact</loc>
-    <priority>0.70</priority>
-  </url>
 </urlset>
