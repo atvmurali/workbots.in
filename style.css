@@ -14,7 +14,7 @@ body{ margin:0; font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,Aria
 .site-header{ position:sticky; top:0; z-index:50; background:#fff; transition:box-shadow .2s ease, background .2s ease; border-bottom:1px solid rgba(2,6,23,.04); }
 .site-header.scrolled{ box-shadow:0 4px 24px rgba(2,6,23,.06) }
 .header-wrap{ display:flex; align-items:center; justify-content:space-between; padding:10px 0 }
-.logo{ height:88px; width:auto; display:block }
+.logo{ height:120px; width:auto; display:block }
 .nav a{ text-decoration:none; color:var(--ink); font-weight:600; margin-left:24px; padding:10px 6px; border-radius:10px; transition:color .15s ease, background .2s ease;}
 .nav a:hover{ color:var(--blue); background:rgba(10,102,194,.08) }
 .hero{ background: radial-gradient(80% 120% at 0% 0%, rgba(10,102,194,.12), transparent 60%), radial-gradient(80% 120% at 100% 0%, rgba(255,122,0,.12), transparent 60%), linear-gradient(180deg, #fff, #f9fbff 60%, #f6f8fb); padding:72px 0 64px; text-align:center;}
@@ -43,8 +43,8 @@ body{ margin:0; font-family:'Inter',system-ui,-apple-system,Segoe UI,Roboto,Aria
 .socials a:hover{ color:var(--blue) }
 .map-wrap iframe{ width:100%; height:320px; border:0; border-radius:14px; box-shadow:0 10px 26px rgba(2,6,23,.06); }
 .site-footer{ background:#0b1220; color:#cbd5e1; padding:28px 0; text-align:center }
-@media (max-width: 900px){ .logo{ height:74px } .contact-grid{ grid-template-columns: 1fr } }
-@media (max-width: 640px){ .logo{ height:64px } .nav a{ margin-left:14px } }
+@media (max-width: 900px){ .logo{ height:100px } .contact-grid{ grid-template-columns: 1fr } }
+@media (max-width: 640px){ .logo{ height:80px } .nav a{ margin-left:14px } }
 /* Branding Styles */
 .site-title a {
   text-decoration: none;
